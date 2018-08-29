@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="925px" viewBox="0 0 1024 925" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M-20,-48 L1083,-48 L1083,599.731667 C1029.13498,589.727591 981.600482,594.645934 940.39651,614.486696 C899.192538,634.327459 878.590552,664.799009 878.590552,705.901348 C838.257742,698.653768 799.690532,698.653768 762.888921,705.901348 C726.08731,713.148927 701.212639,729.525513 688.26491,755.031103 C627.975277,728.955387 557.687127,724.064742 477.400457,740.359169 C390.566145,757.98246 309.661122,819.529403 234.685387,925 C212.596983,796.998599 183.429678,714.733095 147.183472,678.203487 C110.937265,641.673879 55.2094413,615.516606 -20,599.731667 L-20,-48 Z" id="path-1"></path>
+        <filter x="-4.1%" y="-4.6%" width="108.2%" height="109.2%" filterUnits="objectBoundingBox" id="filter-2">
+            <feGaussianBlur stdDeviation="40" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-10" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0976754831   0 0 0 0 0.502790179   0 0 0 0 0.38224654  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="1">
+        <g id="UI-" fill="black" fill-rule="nonzero">
+            <g id="Rectangle-Copy">
+                <use filter="url(#filter-2)" xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="125px" viewBox="0 0 230 125" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Line Copy 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.0056485%" y1="-4.77528007%" x2="62.7846025%" y2="98.2607803%" id="linearGradient-1">
+            <stop stop-color="#2B969C" offset="0%"></stop>
+            <stop stop-color="#37998D" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L1024,0 L1024,705.480615 C969.955284,701.491521 923.806513,710.726113 885.553686,733.18439 C847.30086,755.642666 830.622356,790.793991 835.518175,838.638363 C800.722673,830.434638 766.242035,830.434638 732.07626,838.638363 C697.910485,846.842088 671.292173,864.750744 652.221324,892.36433 C583.476228,857.368413 511.835525,849.092498 437.299215,867.536585 C356.684224,887.484849 292.905847,946.305987 245.964084,1044 C219.111055,937.354611 188.859466,863.357508 155.209316,822.008691 C121.559166,780.659874 69.822727,751.051773 0,733.18439 L0,0 Z" id="path-2"></path>
+        <filter x="-2.4%" y="-2.4%" width="104.9%" height="104.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="20" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-10" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.164149456   0 0 0 0 0.461654974   0 0 0 0 0.425225727  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="standard-layout-" transform="translate(-395.000000, -949.000000)">
+            <g id="Rectangle" fill-rule="nonzero">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            </g>
+            <path d="M401.964638,1040.66718 C414.593355,1062.63779 444.46547,1072.73702 499.643383,1072.73702 C531.904955,1072.73702 607.310189,1053.26804 619.214217,1032.73584 C631.118246,1012.20364 619.214217,983.604896 601.083868,967.590234 C582.953519,951.575573 561.682868,946.948595 510.687263,954.610751 C459.691658,962.272906 442.356451,968.208589 421.20034,987.21461 C400.044229,1006.22063 389.335922,1018.69656 401.964638,1040.66718 Z" id="Line-Copy-2" stroke="#F4CFCF" stroke-width="2" stroke-linecap="square" fill-rule="nonzero"></path>
+            <text id="纳新报名" font-family="PingFangSC-Semibold, PingFang SC" font-size="50" font-weight="500" fill="#9B9B9B">
+                <tspan x="410.550028" y="1027">纳新报名</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

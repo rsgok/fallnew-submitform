@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1024px" height="1044px" viewBox="0 0 1024 1044" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.0056485%" y1="-4.77528007%" x2="62.7846025%" y2="98.2607803%" id="linearGradient-1">
+            <stop stop-color="#2B969C" offset="0%"></stop>
+            <stop stop-color="#37998D" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,2636 L1024,2636 L1024,3341.48061 C969.955284,3337.49152 923.806513,3346.72611 885.553686,3369.18439 C847.30086,3391.64267 830.622356,3426.79399 835.518175,3474.63836 C800.722673,3466.43464 766.242035,3466.43464 732.07626,3474.63836 C697.910485,3482.84209 671.292173,3500.75074 652.221324,3528.36433 C583.476228,3493.36841 511.835525,3485.0925 437.299215,3503.53659 C356.684224,3523.48485 292.905847,3582.30599 245.964084,3680 C219.111055,3573.35461 188.859466,3499.35751 155.209316,3458.00869 C121.559166,3416.65987 69.822727,3387.05177 0,3369.18439 L0,2636 Z" id="path-2"></path>
+        <filter x="-2.4%" y="-2.4%" width="104.9%" height="104.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="20" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="0" dy="-10" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.164149456   0 0 0 0 0.461654974   0 0 0 0 0.425225727  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-" transform="translate(0.000000, -2636.000000)" fill-rule="nonzero">
+            <g id="Rectangle">
+                <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>
